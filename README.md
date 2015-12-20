@@ -5,7 +5,7 @@ It is now possible to collect a large amount of data about personal movement usi
 
 This assignment makes use of data from a personal activity monitoring device. This device collects data at 5 minute intervals through out the day. The data consists of two months of data from an anonymous individual collected during the months of October and November, 2012 and include the number of steps taken in 5 minute intervals each day.
 
-Data
+##Data
 
 The data for this assignment can be downloaded from the course web site:
 
@@ -20,7 +20,7 @@ interval: Identifier for the 5-minute interval in which measurement was taken
 
 The dataset is stored in a comma-separated-value (CSV) file and there are a total of 17,568 observations in this dataset.
 
-Assignment
+##Assignment
 
 This assignment will be described in multiple parts. You will need to write a report that answers the questions detailed below. Ultimately, you will need to complete the entire assignment in a single R markdown document that can be processed by knitr and be transformed into an HTML file.
 
@@ -32,7 +32,7 @@ Fork/clone the GitHub repository created for this assignment. You will submit th
 
 NOTE: The GitHub repository also contains the dataset for the assignment so you do not have to download the data separately.
 
-Loading and preprocessing the data
+##Loading and preprocessing the data
 
 Show any code that is needed to
 
@@ -40,7 +40,7 @@ Load the data (i.e. read.csv())
 
 Process/transform the data (if necessary) into a format suitable for your analysis
 
-What is mean total number of steps taken per day?
+##What is mean total number of steps taken per day?
 
 For this part of the assignment, you can ignore the missing values in the dataset.
 
@@ -48,13 +48,13 @@ Make a histogram of the total number of steps taken each day
 
 Calculate and report the mean and median total number of steps taken per day
 
-What is the average daily activity pattern?
+##What is the average daily activity pattern?
 
 Make a time series plot (i.e. type = "l") of the 5-minute interval (x-axis) and the average number of steps taken, averaged across all days (y-axis)
 
 Which 5-minute interval, on average across all the days in the dataset, contains the maximum number of steps?
 
-Imputing missing values
+##Imputing missing values
 
 Note that there are a number of days/intervals where there are missing values (coded as NA). The presence of missing days may introduce bias into some calculations or summaries of the data.
 
@@ -66,7 +66,7 @@ Create a new dataset that is equal to the original dataset but with the missing 
 
 Make a histogram of the total number of steps taken each day and Calculate and report the mean and median total number of steps taken per day. Do these values differ from the estimates from the first part of the assignment? What is the impact of imputing missing data on the estimates of the total daily number of steps?
 
-Are there differences in activity patterns between weekdays and weekends?
+##Are there differences in activity patterns between weekdays and weekends?
 
 For this part the weekdays() function may be of some help here. Use the dataset with the filled-in missing values for this part.
 
@@ -78,7 +78,7 @@ Sample panel plot
 
 Your plot will look different from the one above because you will be using the activity monitor data. Note that the above plot was made using the lattice system but you can make the same version of the plot using any plotting system you choose.
 
-Submitting the Assignment
+##Submitting the Assignment
 
 To submit the assignment:
 
